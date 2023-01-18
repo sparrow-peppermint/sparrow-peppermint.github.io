@@ -1,16 +1,27 @@
 
+
+.center {
+  
+  text-align: center;
+}
+
 .picture {
   box-shadow: 5px 5px 20px rgb(25, 25, 25);
   width: 500px;
 }
 
 
-.center {
-  text-align: center;
+
+
+
+body {
+  font-family:"Sawarabi Gothic", sans-serif;
+
 }
 
 p {
   text-align: center;
+  
 }
 
 h1 {
@@ -18,10 +29,14 @@ h1 {
   font-family:"Shrikhand", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
-  
   background-color: #009b39;
   border: 10px solid #fad304;
   border-radius: 20px;
   text-align: center;
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+
 
 }
+
