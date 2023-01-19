@@ -5,19 +5,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand");
 @import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap");
 
-#list-of-posts {
-  width: 80%;
-  background: #009b39;
-  padding: 20px 20px;
-}
+
 
 #kermit {
   float:left;
   width: 45%;
 }
 
-#intro {
-  /* padding-bottom: 30px; */
+#big-bird {
+  float:right;
+  width: 50%;
+  margin-left: 30px;
+}
+
+#index-intro {
+  line-height: 1;
+}
+
+#core-intro {
+  height: 225px;
 }
 
 #reflect{
@@ -50,11 +56,15 @@
 }
 
 .list {
-  list-style-type: circle;
+  list-style-type: square ;
   text-align: left;
-  font-size: 16px;
-  color: #00511e;
-  line-height: 24px;
+  font-size: 20px;;
+  padding-left: 20%;
+}
+
+.list a {
+  color: #1be2dc
+
 }
 
 .navbar {
@@ -64,7 +74,6 @@
   
 }
 
-/* Style the navigation bar links */
 .navbar a {
 
   color: rgb(129, 6, 6);
@@ -97,7 +106,7 @@ body {
 
 p {
   text-align: center;
-  line-height: 0.8;
+  
   
 }
 
