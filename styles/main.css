@@ -47,10 +47,10 @@
   margin-left: 30px; */
 /* } */
 
-#bunsen {
+/* #bunsen {
   float:left;
   width: 45%
-}
+} */
 
 #index-intro {
   line-height: 1;
@@ -82,7 +82,7 @@
   border-radius: 20px;
   text-align: center;
   padding: 20px;
-  /* width: 600px; */
+  max-width: 1000px;
   margin: 20px auto ;
 
 }
@@ -158,6 +158,32 @@ h1 {
 
 h2 {
   text-transform: uppercase;
+}
 
+/* Mobile, smallest view */
+@media (max-width: 43rem){
+  body {
+    background-color: pink;
+  }
+
+/* Tablet, mid-small view */
+@media (min-width: 43rem){
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 62rem){
+  body {
+    background-color: red;
+  }
+}
+
+/* X-wide desktop view */
+@media (min-width: 82rem){
+  body {
+    background-color: blue;
+  }
 }
 
