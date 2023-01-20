@@ -180,7 +180,7 @@ h3 span {
 /* Mobile, smallest view */
 @media (max-width: 43rem){
   body {
-    background-color: pink;
+    /* background-color: pink; */
     font-size: smaller;
   }
 }
@@ -188,14 +188,14 @@ h3 span {
 /* Tablet, mid-small view */
 @media (min-width: 43rem){
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 }
 
 /* Desktop view */
 @media (min-width: 62rem){
   body {
-    background-color: red;
+    /* background-color: red; */
     font-size: large;
   }
 }
@@ -203,7 +203,7 @@ h3 span {
 /* X-wide desktop view */
 @media (min-width: 82rem){
   body {
-    background-color: blue;
+    /* background-color: blue; */
     font-size: larger;
   }
 }
