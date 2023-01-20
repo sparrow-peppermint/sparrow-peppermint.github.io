@@ -130,6 +130,11 @@
   
 }
 
+.blog-text {
+  text-align: left;
+  padding: 10px;
+}
+
 /* Active/current link */
 /* .navbar a.active {
   background-color: #666;
@@ -159,6 +164,17 @@ h1 {
 
 h2 {
   text-transform: uppercase;
+}
+
+h3{
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+h3 span {
+  padding: 5px;
+  background-color: rgba(0, 82, 30, 0.5);
+  border-radius: 10px;
 }
 
 /* Mobile, smallest view */
