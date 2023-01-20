@@ -181,7 +181,9 @@ h3 span {
 @media (max-width: 43rem){
   body {
     background-color: pink;
+    font-size: smaller;
   }
+}
 
 /* Tablet, mid-small view */
 @media (min-width: 43rem){
@@ -194,6 +196,7 @@ h3 span {
 @media (min-width: 62rem){
   body {
     background-color: red;
+    font-size: large;
   }
 }
 
@@ -201,6 +204,7 @@ h3 span {
 @media (min-width: 82rem){
   body {
     background-color: blue;
+    font-size: larger;
   }
 }
 
