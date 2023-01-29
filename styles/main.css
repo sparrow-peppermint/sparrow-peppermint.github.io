@@ -169,6 +169,11 @@ li {
   padding: 1%
 }
 
+img {
+  max-width: 100%;
+
+}
+
 h1 {
   color:rgb(255, 255, 255);
   font-family:"Shrikhand", sans-serif;
