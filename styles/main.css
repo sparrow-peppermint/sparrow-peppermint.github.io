@@ -159,6 +159,10 @@ p {
   
 }
 
+li {
+  text-align: left;
+}
+
 h1 {
   color:rgb(255, 255, 255);
   font-family:"Shrikhand", sans-serif;
