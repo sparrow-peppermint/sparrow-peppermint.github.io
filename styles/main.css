@@ -69,9 +69,14 @@
   text-shadow: 1px 1px 2px rgb(198, 105, 7), 0 0 1em rgb(195, 92, 37), 0 0 0.2em rgb(219, 21, 14);
 }
 
-.emphasised{
+.emphasised {
   font-style: italic;
 }
+
+.strong {
+  font-style: strong
+}
+  
 
 .center {
   
