@@ -108,6 +108,9 @@
   color: #1be2dc
 
 }
+.link {
+  color:#00511e;
+}
 
 .navbar {
   background-color: #fad304;
@@ -154,9 +157,6 @@ body {
   /* background-image: url("../images/moss.jpeg"); */
 }
 
-a {
-  color:#00511e;
-}
 
 p {
   
