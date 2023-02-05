@@ -74,7 +74,11 @@
 }
 
 .strong {
-  font-style: strong
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
 }
   
 
