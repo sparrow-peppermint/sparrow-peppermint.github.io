@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem Solving - Sparrow Learns Stuff</title>
+    <link rel="stylesheet" href="../styles/main.css">
+
+  </head>
+  <body>
+    <div class="navbar center">
+      <a href="../index.html">Home</a>
+      <a href="core.html">Core</a>
+      <a href="tech.html">Tech</a>
+      <a href="https://www.youtube.com/watch?v=WS3Lkc6Gzlk&ab_channel=NewLifePuppetsInc">About Me</a>
+    </div>
+
+    <div class="row block">
+      <div class="col-12">
+          <h1>Problem Solving</h1>
+      </div>
+    
+  </div>
+
+    <div class="row block">
+      <div class="col-12">
+        <h3>A time I was blocked on a simple problem</h3>
+        <div class="blog-text">
+          <p>This week we were learning about methods in JavaScript.
+            These are functions that are built into the language for convenience
+            and efficiency, because of how often they are used by developers.
+          </p>
+          <p>One method I researched was the .sort() function.</p>
+          <p>This function takes a list or "array" of values and sorts them alphabetically.
+            For example if we performed the .sort() method on this array:</p>
+            <p>[ 'Dr. Teeth' ,  'Zoot' ,  'Animal' ,  'Floyd' ,  'Janice' ] </p>
+            <p>It will become</p>
+            <p>[ 'Animal', 'Dr. Teeth', 'Floyd', 'Janice', 'Zoot' ]</p>
+            <p>I also expected that if passed an array of numbers,
+              it would sort them numerically by size, however, when I performed
+              the .sort() function on this array:</p>
+            <p>[ 150 ,  32 ,  345 ,  1 ,  95 ,  40 ]</p>
+            <p>It became</p>
+            <p> [1, 150, 32, 345, 40, 95 ]</p>
+            <p>So I had to figure out why, and how to alter the method so that it could
+              be used to sort the numbers by value.</p>
+            <p>After some research I found that the .sort() method sorts elements
+              by the Unicode point value of the first character. 1 comes before 3,
+              which is why 150 will come before 32.</p>
+            <p>I messed around for a while and eventually found a way to tell the method
+              to treat each value as an integer instead of a Unicode character.
+              By adding a function which compared each number by size, I was able to use
+              the .sort() method to sort numbers by value.</p>
+            <p>Here is the original method, and my modified version for sorting numbers</p>
+            <p>array . sort ()<br>array . sort (( a , b ) => a - b )</p>
+            <p>This problem solving experience was a combination of trial and error,
+              console logging, googling, and learning through reflection.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row block">
+      <div class="col-12">
+        <h3>An elegantly solved problem</h3>
+        <div class="blog-text">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
+  
+
